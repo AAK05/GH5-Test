@@ -8,6 +8,11 @@ const config: Config = {
   ],
   theme: {
     extend: {
+
+      fontFamily: {
+        pptelegraf: ["var(--font-pptelegraf)"], 
+      },
+
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
