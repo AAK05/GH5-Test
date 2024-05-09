@@ -1,7 +1,9 @@
 import React from 'react'
 import Accordion from "./Accordion"
+import { useState } from 'react';
 
 const FAQs = () => {
+
     return (
         <main className="w-full h-[1312px]">
             <h1 className="text-white text-center font-pptelegraf pt-8">
@@ -11,7 +13,9 @@ const FAQs = () => {
                 Your Guide to Navigating 
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-300 via-purple-500 to-gray-100"> Garuda Hacks 5.0</span>
             </h2> 
-            <div className="flex justify-center my-5">
+
+
+            <div className="flex justify-center w-[1040px] ml-20 mr-10 mt-3 pl-3 pb-3 py-3 rounded-md border border-white  hover:bg-slate-900">
                 <Accordion title="What is a hackathon?" answer="A hackathon is a programming competition in which competitors use technology to build innovative projects within 36 hours. There will be opportunities to win cool prizes, learn from our key-note speakers, and network with our sponsors."/> 
             </div>
             <div className="flex justify-center my-5">

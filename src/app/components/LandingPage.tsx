@@ -5,7 +5,7 @@ const LandingPage = () => {
   return (
         <main className="min-h-screen bg-black relative overflow-y-auto">
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <div className="flex flex-row items-center mb-8">
+        <div className="flex flex-col md:flex-row items-center mb-8">
           <img src="logo.png" alt="Logo" className="h-20 mb-4" />
           <div className="flex flex-col text-left">
             <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-red-300 via-purple-500 to-gray-100 mb-0 text-6xl font-extrabold font-pptelegraf">
