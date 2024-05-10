@@ -12,14 +12,14 @@ const Accordion = ({title, answer}: AccordionProps) => {
     const [accordionOpen, setAccordionOpen] = useState(false); 
     return (
     <div>
-        <button onClick={() => setAccordionOpen(!accordionOpen)} className="w-[1000px] flex justify-between">
-            <span className="text-white">{title}</span>
+        <button onClick={() => setAccordionOpen(!accordionOpen)} className="w-max lg:w-[1000px] flex justify-between">
+            <span className="text-white font-bold">{title}</span>
             {accordionOpen ? <span className="text-white">-</span> : <span className="text-white">+</span>}
         </button>
         <div className={`grid ove(0 rflow-hidden transition-all duration-300 ease-in-out ${
-                accordionOpen ? 'grid-rows-[2fr] opacity-100' : 'grid-rows-[1fr] opacity-0'
+                accordionOpen ? 'grid-rows-[1fr] opacity-100' : 'grid-rows-[1em] opacity-0'
             }`}>
-            <div className="text-white overflow-hidden">{answer}</div>
+            <div className="text-white overflow-hidden w-full">{answer}</div>
         </div> 
 
     </div>

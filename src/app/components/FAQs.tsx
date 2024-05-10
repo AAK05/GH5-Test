@@ -15,14 +15,14 @@ const FAQs = () => {
             </h2> 
 
 
-            <div className="flex justify-center w-[1040px] ml-20 mr-10 mt-3 pl-3 pb-3 py-3 rounded-md border border-white  hover:bg-slate-900">
+            <div className="flex w-10/12 lg:w-[1040px] mx-auto mt-3 pl-3 pb-3 py-3 rounded-md border border-white  hover:bg-slate-900">
                 <Accordion title="What is a hackathon?" answer="A hackathon is a programming competition in which competitors use technology to build innovative projects within 36 hours. There will be opportunities to win cool prizes, learn from our key-note speakers, and network with our sponsors."/> 
             </div>
-            <div className="flex justify-center my-5">
-            <div className="w-[1040px] h-[55px] rounded-md border border-white text-white pl-3 pb-3 py-3 hover:bg-slate-900">
-                Where will it be hosted?
+
+            <div className="flex w-10/12 lg:w-[1040px] mx-auto mt-3 pl-3 pb-3 py-3 rounded-md border border-white  hover:bg-slate-900">
+                <Accordion title="Where will it be hosted?" answer="Universitas Multimedia Nusantara (UMN) Indonesia"/> 
             </div>
-            </div>
+
             <div className="flex justify-center my-5">
             <div className="w-[1040px] h-[55px] rounded-md border border-white text-white pl-3 pb-3 py-3 hover:bg-slate-900">
                 Who can participate?
