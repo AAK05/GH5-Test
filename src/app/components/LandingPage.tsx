@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const LandingPage = () => {
   return (
-        <main className="min-h-screen bg-black relative overflow-y-clip">
+        <main className="min-h-screen bg-black relative overflow-clip">
       <div className="absolute top-[40%] lg:top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         <div className="flex flex-col lg:flex-row items-center mb-8">
           <img src="logo.png" alt="Logo" className="h-40 lg:h-24 mb-4 lg:mb-0" />
