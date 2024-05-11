@@ -8,7 +8,7 @@ const LandingPage = () => {
         <div className="flex flex-col lg:flex-row items-center mb-8">
           <img src="logo.png" alt="Logo" className="h-40 lg:h-24 mb-4 lg:mb-0" />
           <div className="flex flex-col text-left">
-            <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-red-300 via-purple-500 to-gray-100 mb-0 text-6xl font-extrabold font-pptelegraf">
+            <h1 className="text-white bg-clip-text bg-gradient-to-r from-red-300 via-purple-500 to-gray-100 mb-0 text-6xl font-extrabold font-pptelegraf">
               Garuda Hacks 5.0
             </h1>
             <h2 className="text-white mt-0 text-3xl font-light font-pptelegraf">
