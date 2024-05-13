@@ -9,7 +9,7 @@ const Tracks = () => {
             <h1 className="text-white text-center font-pptelegraf pt-8">
                 Explore the Tracks
             </h1>
-            <h2 className="text-white text-center text-3xl font-bold">
+            <h2 className="text-white text-center text-3xl font-bold w-11/12 mx-auto">
                 Ignite Change in Your Field of Interest
             </h2>
 
