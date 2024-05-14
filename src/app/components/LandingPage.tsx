@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from "next/image";
+import {Link} from 'react-router-dom'
 
 const LandingPage = () => {
   return (
@@ -17,9 +18,11 @@ const LandingPage = () => {
           </div>
         </div>
         <div className="flex justify-center z-10">
-          <button className="text-white font-pptelegraflight px-8 py-4 border border-white bg-black-500 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 ease-in-out">
-            Coming Soon 
-          </button>
+          <a href="http://ristek.link/GarudaHacks5.0Registration" target="_blank">
+            <button className="text-white font-pptelegraflight px-8 py-4 border border-white bg-black-500 rounded-lg shadow-md hover:bg-blue-600 transition duration-300 ease-in-out">
+              Register Now
+            </button>
+          </a>
         </div>
       </div>
 
