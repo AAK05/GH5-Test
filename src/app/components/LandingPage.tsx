@@ -25,7 +25,7 @@ const LandingPage = () => {
 
 
       {/* Background image */}
-       <div className="absolute bottom-0 left-0 w-[80%] -translate-x-[40%] lg:w-full lg:-translate-x-[20%] lg:translate-y-[30%] z-0">
+       <div className="absolute bottom-0 left-0 w-[80%] lg:h-[40%] -translate-x-[40%] lg:-translate-x-[20%] lg:translate-y-[20%] z-0">
         <Image 
           src="/gradient.png"
           width={1197}
@@ -34,7 +34,7 @@ const LandingPage = () => {
           className="z-0"
         />
       </div>
-      <div className="absolute top-0 right-0 w-[80%] translate-x-[40%] lg:w-full lg:translate-x-[50%] lg:-translate-y-[30%] z-0">
+      <div className="absolute top-0 right-0 w-[80%] translate-x-[40%] lg:h-[40%] lg:translate-x-[60%] lg:-translate-y-[30%] z-0">
         <Image 
           src="/gradient2.png"
           width={1197}
