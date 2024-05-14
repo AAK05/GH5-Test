@@ -11,8 +11,8 @@ interface AccordionProps {
 const Accordion = ({title, answer}: AccordionProps) => {
     const [accordionOpen, setAccordionOpen] = useState(false); 
     return (
-    <div>
-        <button onClick={() => setAccordionOpen(!accordionOpen)} className="w-max lg:w-[1000px] flex justify-between">
+    <div className="w-full h-full">
+        <button onClick={() => setAccordionOpen(!accordionOpen)} className="w-full h-full lg:w-[1000px] flex justify-between pr-8">
             <span className="text-white font-bold">{title}</span>
             {accordionOpen ? <span className="text-white">-</span> : <span className="text-white">+</span>}
         </button>
