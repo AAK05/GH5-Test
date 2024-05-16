@@ -2,10 +2,9 @@
 const nextConfig = {
     output: "export",
     images: {
-        loader: "akamai",
-        path: "",
+        unoptimized: true
   },
-    assetPrefix: "./",
+    basePath: "/GH5-Test"
 };
 
 export default nextConfig;
